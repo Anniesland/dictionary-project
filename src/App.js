@@ -8,7 +8,7 @@ function App() {
      <h1> Dictionary 🍳 </h1>
       <br />
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="search"/>
       </main>
     </div>
     </div>
