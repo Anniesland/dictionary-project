@@ -9,7 +9,6 @@ let [results, setResults]= useState(null);
 let [loaded, setLoaded] = useState(false);
 
 function handleResponse(response) {
-    console.log(response.data[0].meanings[0].definitions[0].definition);
     setResults(response.data[0]);
 }
 
@@ -39,7 +38,7 @@ if (loaded) {
                 <input type="search" placeholder="search" onChange={handleKeywordChange} />
             </form>
             <br />
-          <em>  {keyword} </em>
+         <span className="keyword"> <em>  {keyword} </em> </span>
             <Results results={results}/>
         </div>
     );

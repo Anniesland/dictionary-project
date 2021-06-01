@@ -11,6 +11,7 @@ function App() {
         <Dictionary defaultKeyword="search"/>
       </main>
     </div>
+    <footer> <a href="https://github.com/Anniesland/dictionary-project"> Open source code</a> by Anniesland</footer>
     </div>
   );
 }
