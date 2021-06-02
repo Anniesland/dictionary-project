@@ -1,3 +1,7 @@
+.App {
+  max-width: 966px;
+  margin: 0 auto;
+}
 h1 {
   font-size: 30px;
 }
